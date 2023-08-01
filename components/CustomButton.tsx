@@ -1,17 +1,17 @@
 'use client';
 
 import { CustomButtonProps } from '@/types';
-import React from 'react';
 
 const CustomButton = ({
   title,
   containerStyle,
+  type,
   handleClick
 }: CustomButtonProps) => {
   return (
     <button
       disabled={false}
-      type={'button'}
+      type={type || 'button'}
       className={`custom-btn ${containerStyle}`}
       onClick={handleClick}
     >
