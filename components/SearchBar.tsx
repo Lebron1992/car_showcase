@@ -30,7 +30,7 @@ const SearchBar = () => {
     if (manufacturer === '' && model === '') {
       return alert('Please fill in fields');
     }
-    updateSearchParams(model, manufacturer);
+    updateSearchParams(model.toLowerCase(), manufacturer.toLowerCase());
   };
 
   const updateSearchParams = (model: string, manufacturer: string) => {

@@ -7,6 +7,7 @@ import Hero from './Hero';
 import NavBar from './NavBar';
 import SearchBar from './SearchBar';
 import SearchManufacturer from './SearchManufacturer';
+import ShowMore from './ShowMore';
 
 export {
   CarCard,
@@ -17,5 +18,6 @@ export {
   Hero,
   NavBar,
   SearchBar,
-  SearchManufacturer
+  SearchManufacturer,
+  ShowMore
 };
